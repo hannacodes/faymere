@@ -1,0 +1,119 @@
+/* worldbuilding test website
+	author: hanna koh
+	date: 7/13/2020 */
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+  font-family: 'Grenze Gotisch', cursive;
+  font-weight: 200;
+  font-size:20px;
+  list-style:none;
+  padding:0;
+}
+
+body, .horizontalNAV{
+  width:100%;
+  min-width:1200px;
+  max-width:1571px;
+}
+
+body{
+  background-color:rgb(255, 247, 230);
+}
+
+header{
+  font-weight:800;
+  font-size:5em;
+  position:absolute;
+  top:18%;
+  left:40%;
+  width:30%;
+  height:auto;
+  padding-right:30px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+
+nav.horizontalNAV {
+  position:absolute;
+  width: 100%;
+  top:-3%;
+  border-bottom:solid black 2px;
+}
+nav.horizontalNAV li {
+  float: left;
+  padding: 15px 0px;
+  text-align: center;
+  width: 11.11%;
+}
+
+nav.horizontalNAV li a{
+  color: black;
+  font-weight:400;
+  font-size: 1.5em;
+}
+
+nav.horizontalNAV li:hover {
+  background-color:black;
+  background-color:rgba(255, 255, 255, 0.8);
+}
+
+h2{
+  text-align:center;
+  font-size:2em;
+  font-weight:600;
+}
+
+
+
+
+.about{
+  margin-top:40px;
+}
+
+.about, .magic, .currency {
+  float:left;
+  margin-left:15%;
+  font-size:1em;
+  margin-top:;
+  margin-bottom:5%;
+  width:45%;
+  padding-top:10px;
+  padding-bottom:20px;
+  padding-left:20px;
+  padding-right:10px;
+  border-radius:25px;
+  background-color:rgba(105, 59, 0, 0.2);
+}
+
+.map{
+  float:right;
+  width:400px;
+  border-radius:25px;
+  background-color:rgb(105, 59, 0, 0.2);
+  margin-top:-775px;
+  margin-right:5%;
+}
+
+img.map{
+  float: right;
+  width: 300px;
+  height: auto;
+  padding-bottom:0em;
+  margin-bottom:25px;
+  margin-right:50px;
+  margin-top:0px;
+}
+
+
+img.currencypic{
+  border:solid black 3.5px;
+  margin-bottom:0px;
+  margin-top: 10px;
+  margin-left:30px;
+  margin-right:10px;
+  float: right;
+  margin-left:2%;
+}
