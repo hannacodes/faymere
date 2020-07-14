@@ -84,14 +84,14 @@ h2{
   padding-bottom:20px;
   padding-left:20px;
   padding-right:10px;
-  /*border-radius:0px;*/
+  border-radius:15px;
   background-color:rgba(105, 59, 0, 0.2);
 }
 
 .map{
   float:right;
   width:400px;
-  /*border-radius:0px;*/
+  border-radius:15px;
   background-color:rgb(105, 59, 0, 0.2);
   margin-top:-775px;
   margin-right:5%;
