@@ -119,5 +119,20 @@ img.currencypic{
   margin-left:30px;
   margin-right:10px;
   float: right;
-  margin-left:2%;
+  margin-left:1%;
+}
+
+figure{
+  font-size:0.5em;
+  font-weight:400;
+  float: right;
+  text-align:center;
+  
+}
+
+figcaption, figcaption a{
+  color: black;
+  font-style: italic;
+  font-weight:400;
+  text-align: center;
 }
