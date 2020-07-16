@@ -11,7 +11,7 @@
 }
 
 ::selection {
-  background: #ffccf9; 
+  background: #ffccf9; /* WebKit/Blink Browsers */
 }
 
 body, .horizontalNAV{
@@ -85,7 +85,8 @@ h2{
   float:left;
   margin-left:8%;
   font-size:1em;
-  margin-top:5%;
+  margin-top:2.5%;
+  margin-bottom:2.5%;
   width:50%;
   padding-top:10px;
   padding-bottom:20px;
@@ -94,6 +95,7 @@ h2{
   border-radius:15px;
   background-color:rgba(105, 59, 0, 0.2);
 }
+
 
 .map{
   float:right;
@@ -139,4 +141,25 @@ figcaption, figcaption a{
   font-style: italic;
   font-weight:400;
   text-align: center;
+}
+
+footer {
+  clear: left;
+  width: 100%;
+  border-top: 1px solid black;
+  margin-top:25px;
+  padding-bottom:10px;
+  background-color:rgba(105, 59, 0, 0.2);
+}
+
+footer address {
+  padding-top:5px;
+  color: rgb(0, 35, 40);
+  font-size: 0.9em;
+  font-style: normal;
+  text-align: center;
+}
+
+footer address a{
+  color: black;
 }
