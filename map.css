@@ -16,6 +16,10 @@ body, .horizontalNAV{
   max-width:1571px;
 }
 
+::selection {
+  background: #ffccf9;
+}
+
 body{
   background-color:rgb(255, 247, 230);
 }
