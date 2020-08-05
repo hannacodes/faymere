@@ -196,7 +196,6 @@ img.map{
   border-radius: 6px;
 }
 
-
 img.godpic, img.charpic{
   border:solid black 3.5px;
   margin-bottom:0px;
@@ -205,6 +204,17 @@ img.godpic, img.charpic{
   margin-right:10px;
   float: right;
   margin-left:2%;
+}
+ img.charpic2{
+  border:solid black 3.5px;
+  margin-bottom:0px;
+  margin-top: 350px;
+  margin-left:30px;
+  margin-right:10px;
+}
+
+.ugh{
+  margin-right:-350px;
 }
 
 figure{
@@ -220,6 +230,7 @@ figcaption, figcaption a{
   font-style: italic;
   font-weight:400;
   text-align: center;
+  margin-bottom:0px;
 }
 
 footer {
